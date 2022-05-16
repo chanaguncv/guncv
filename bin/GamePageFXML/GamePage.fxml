@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GamePageFXML.ControlGamePage">
+   <children>
+      <HBox prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1">
+                           <VBox.margin>
+                              <Insets left="20.0" top="30.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Text>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label text=":">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="8.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3000 ">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Text>
+                              <Label text="\$">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <HBox prefHeight="500.0" prefWidth="200.0" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Player 3">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" top="30.0" />
+                           </VBox.margin>
+                        </Text>
+                        <HBox prefHeight="60.0" prefWidth="200.0">
+                           <children>
+                              <Label text=":">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3000">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </Text>
+                              <Label text="\$">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children></VBox>
+            <Line endY="720.0" style="-fx-stroke-width: 2;">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Line>
+            <GridPane alignment="TOP_CENTER" prefHeight="720.0" prefWidth="800.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1210.0" minWidth="10.0" prefWidth="80.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="0.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="0.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="0.0" prefWidth="78.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="0.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="10.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="10.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="2190.0" minWidth="10.0" prefWidth="182.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="202.0" minHeight="10.0" prefHeight="83.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="258.0" minHeight="8.0" prefHeight="79.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="337.0" minHeight="0.0" prefHeight="77.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="402.0" minHeight="0.0" prefHeight="81.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="607.0" minHeight="0.0" prefHeight="77.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="516.0" minHeight="0.0" prefHeight="79.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="557.0" minHeight="0.0" prefHeight="78.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="566.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="648.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="249.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="3" GridPane.rowSpan="2">
+                     <children>
+                        <Label text="ROUND :">
+                           <font>
+                              <Font name="Berlin Sans FB" size="40.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="55.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="45.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="16.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="START">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="teacherButton" mnemonicParsing="false" onAction="#popTeacher" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="Teacher" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="psychiatristButton" mnemonicParsing="false" onAction="#popPsychiatrist" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Psychiatrist" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Berlin Sans FB" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="dentistButton" mnemonicParsing="false" onAction="#popDentist" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="Dentist" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="Lawyer" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="SPECIAL" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="Accountant" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Berlin Sans FB" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Special" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Engineer" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                     <graphic>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="SPECIAL" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font></Button>
+                  <Button fx:id="pharmacistButton" mnemonicParsing="false" onAction="#popPharmacist" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Pharmacist" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="12.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="Artist" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="20.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Actor" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button maxWidth="80.0" mnemonicParsing="false" prefHeight="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Architect" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Veterinarian" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="11.0" />
+                     </font></Button>
+                  <Button maxWidth="80.0" mnemonicParsing="false" prefHeight="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Director" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Doctor" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="17.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Archeologist" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Berlin Sans FB" size="11.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Judge" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="Berlin Sans FB" size="20.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Athlete" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Special" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="12.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="SPECIAL" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font></Button>
+                <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Politician" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: black;" text="SPECIAL" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Police" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="17.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 15;" text="Scientist" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Soldier" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Special" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="40.0" left="100.0" top="50.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </GridPane>
+            <Line endX="-94.70710754394531" endY="720.0" startX="-100.0" style="-fx-stroke-width: 2;" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2">
+                           <VBox.margin>
+                              <Insets left="20.0" top="30.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Text>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label text=":">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="8.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3000">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Text>
+                              <Label text="\$">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children></VBox>
+                  <HBox prefHeight="500.0" prefWidth="200.0" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Player 4">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" top="30.0" />
+                           </VBox.margin>
+                        </Text>
+                        <HBox prefHeight="60.0" prefWidth="200.0">
+                           <children>
+                              <Label text=":">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3000">
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                              </Text>
+                              <Label text="\$">
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="35.0" top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
